@@ -1,4 +1,252 @@
-body {
-    background-color: cornflowerblue;
-    color:bisque;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #c25a3d;
+    border: 150px;
+    width: auto;
+    height: 200px;
+    
+
+
+
+}
+
+h1 {
+    margin-right: 100px;
+    margin-top: 100px;
+    color: bisque;
+    font-family: 'Copperplate';
+    text-align: right;
+    padding-top: 15px;
+   
+   
+
+}
+
+h4 {
+    text-align: right;
+    color: bisque;
+    font-family: 'Geneva';
+    margin-right: 90px;
+    padding-top: 10px;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 90px;
+    grid-gap: 15px 20px;
+    width: 500px;
+    padding: 10px;
+    padding-left: 300px;
+    text-align: center;
+    margin-top: 75px
+}
+
+
+#AboutMeNav {
+
+    display: grid;
+    margin: auto;
+    vertical-align: middle;
+    background-color: #009292;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+
+}
+
+.navItem {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#MyProjectsNav {
+    display: grid;
+    margin: auto;
+    background-color: #c25a3d;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+#PastNav {
+    display: grid;
+    margin: auto;
+    background-color: #009292;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+
+
+#SkillsNav {
+    display: grid;
+    margin: auto;
+    background-color: #c25a3d;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+#ResumeNav {
+    display: grid;
+    margin: auto;
+    background-color: #009292;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+#ContactNav {
+    display: grid;
+    margin: auto;
+    background-color: #c25a3d;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+#navMenu {
+   text-align: center;
+    margin-left: 400px;
+    
+}
+
+p {
+    margin-left: 25px;
+    padding: 5px;
+    color: #191970
+}
+
+ul {
+    margin-left: 25px;
+    padding: 5px;
+    color: #191970;
+}
+
+.AboutMe {
+    margin-top: 800px;
+    margin-left: 5px;
+    padding: 30px;
+    background-color: #c25a3d;
+    color: bisque;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 50px;
+}
+
+.picture {
+    margin: 15px;
+    height: 125%;
+}
+
+.AboutSection {
+    display: flex;
+    height: 250px;
+    padding: 30px;
+    font-size: 30px;
+    text-align: justify;
+
+}
+
+
+.MyProjects {
+    margin-left: 5px;
+    padding: 30px;
+    background-color: #009292;
+    color: bisque;
+    margin-top: 500px;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 50px;
+}
+
+.ProjectSection {
+
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.PastPublications {
+    margin-left: 5px;
+    padding: 30px;
+    background-color: #c25a3d;
+    color: bisque;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 50px;
+    margin-top: 500px;
+
+}
+
+.PastSection {
+
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+.Skills {
+    margin-left: 5px;
+    padding: 30px;
+    background-color: #009292;
+    color: bisque;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 50px;
+    margin-top: 500px;
+}
+
+.SkillSection {
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Resume {
+    margin-left: 5px;
+    padding: 30px;
+    background-color: #c25a3d;
+    color: bisque;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 50px;
+    margin-top: 500px;
+}
+
+.ResumeSection {
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Contact {
+    margin-left: 5px;
+    padding: 30px;
+    background-color: #009292;
+    color: bisque;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 50px;
+    margin-top: 40px;
+
+}
+
+.ContactSection {
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.touch {
+    text-align: center;
 }
