@@ -9,9 +9,6 @@ header {
     width: auto;
     height: 200px;
     
-
-
-
 }
 
 h1 {
@@ -22,8 +19,11 @@ h1 {
     text-align: right;
     padding-top: 15px;
    
-   
 
+}
+.back {
+    margin-left: 50%;
+    margin-right: 45%;
 }
 
 h4 {
@@ -47,6 +47,12 @@ h4 {
     margin-top: 75px
 }
 
+.navItem {
+    margin-top: auto;
+    margin-bottom: auto;
+    color:bisque;
+    font-weight: bold;
+}
 
 #AboutMeNav {
 
@@ -57,13 +63,8 @@ h4 {
     width: 100px;
     height: 100px;
     padding: 10px;
-
 }
 
-.navItem {
-    margin-top: auto;
-    margin-bottom: auto;
-}
 
 #MyProjectsNav {
     display: grid;
@@ -83,8 +84,6 @@ h4 {
     padding: 10px;
 }
 
-
-
 #SkillsNav {
     display: grid;
     margin: auto;
@@ -97,7 +96,7 @@ h4 {
 #ResumeNav {
     display: grid;
     margin: auto;
-    background-color: #009292;
+    background-color: #c25a3d;
     width: 100px;
     height: 100px;
     padding: 10px;
@@ -106,7 +105,7 @@ h4 {
 #ContactNav {
     display: grid;
     margin: auto;
-    background-color: #c25a3d;
+    background-color: #009292;
     width: 100px;
     height: 100px;
     padding: 10px;
@@ -194,7 +193,6 @@ ul {
 }
 
 
-
 .Skills {
     margin-left: 5px;
     padding: 30px;
@@ -215,7 +213,7 @@ ul {
 .Resume {
     margin-left: 5px;
     padding: 30px;
-    background-color: #c25a3d;
+    background-color: #009292;
     color: bisque;
     text-align: center;
     font-size: 35px;
@@ -232,7 +230,7 @@ ul {
 .Contact {
     margin-left: 5px;
     padding: 30px;
-    background-color: #009292;
+    background-color: #c25a3d;
     color: bisque;
     text-align: center;
     font-size: 35px;
@@ -248,8 +246,5 @@ ul {
 }
 
 .touch {
-    text-align: center;
-}
-.back {
     text-align: center;
 }
