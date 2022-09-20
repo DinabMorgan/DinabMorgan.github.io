@@ -162,7 +162,7 @@ ul {
 .PastPublications {
     margin-left: 5px;
     padding: 30px;
-    background-color: #c25a3d;
+    background-color: #009292;
     color: bisque;
     text-align: center;
     font-size: 35px;
@@ -179,40 +179,6 @@ ul {
 }
 
 
-.Skills {
-    margin-left: 5px;
-    padding: 30px;
-    background-color: #009292;
-    color: bisque;
-    text-align: center;
-    font-size: 35px;
-    border-radius: 50px;
-    margin-top: 500px;
-}
-
-.SkillSection {
-    padding: 15px;
-    font-size: 30px;
-    text-align: center;
-}
-
-.Resume {
-    margin-left: 5px;
-    padding: 30px;
-    background-color: #009292;
-    color: bisque;
-    text-align: center;
-    font-size: 35px;
-    border-radius: 50px;
-    margin-top: 500px;
-}
-
-.ResumeSection {
-    padding: 15px;
-    font-size: 30px;
-    text-align: center;
-}
-
 .Contact {
     margin-left: 5px;
     padding: 30px;
@@ -222,7 +188,6 @@ ul {
     font-size: 35px;
     border-radius: 50px;
     margin-top: 40px;
-
 }
 
 .ContactSection {
@@ -233,4 +198,16 @@ ul {
 
 .touch {
     text-align: center;
+}
+
+#blog {
+    margin-top: 1px;
+}
+#ProjectList {
+    display: grid;
+    grid-template-columns: 250px 250px 250px ;
+    grid-template-rows: 150px 150px ;
+   align-items: center;
+   margin-left: 30%;
+
 }
